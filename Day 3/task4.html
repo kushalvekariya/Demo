@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Design</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 100px);
+            grid-template-rows: repeat(5, 100px);
+            gap: 20px;
+            background-color: black;
+            padding: 20px;
+            border: 5px solid red;
+            box-shadow: 0 0 15px blue;
+        }
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: teal;
+            border: 3px solid blue;
+        }
+        .star-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: black;
+            box-shadow: 0 0 20px blue;
+            border: 3px solid white;
+        }
+        .star-box img {
+            width: 80px;
+            height: 80px;
+        }
+        .dot {
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            border-radius: 50%;
+            justify-self: center;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="square"></div> <div class="dot"></div> <div class="square"></div> <div class="dot"></div> <div class="square"></div>
+        <div class="dot"></div> <div class="dot"></div> <div class="dot"></div> <div class="dot"></div> <div class="dot"></div>
+        <div class="square"></div> <div class="dot"></div> <div class="star-box"><img src="star.png.crdownload"></div> <div class="dot"></div> <div class="square"></div>
+        <div class="dot"></div> <div class="dot"></div> <div class="dot"></div> <div class="dot"></div> <div class="dot"></div>
+        <div class="square"></div> <div class="dot"></div> <div class="square"></div> <div class="dot"></div> <div class="square"></div>
+    </div>
+</body>
+</html>

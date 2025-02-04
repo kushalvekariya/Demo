@@ -1,0 +1,68 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main menu container */
+.main {
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Main menu styling */
+.main ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main ul li {
+    position: relative;
+    padding: 15px 20px;
+}
+
+.main ul li a {
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hover effect for main menu */
+.main ul li:hover {
+    background: grey;
+}
+
+/* Dropdown menu */
+.sub_ol {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: black;
+    list-style: none;
+    width: 150px;
+}
+
+/* Show dropdown when hovering */
+.sub_li:hover .sub_ol {
+    display: block;
+}
+
+/* Dropdown item styling */
+.sub_ol li {
+    padding: 10px;
+}
+
+.sub_ol li a {
+    color: yellow;
+    display: block;
+    padding: 10px;
+}
+
+.sub_ol li:hover {
+    background: darkblue;
+}

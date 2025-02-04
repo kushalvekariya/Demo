@@ -1,0 +1,222 @@
+div{
+    text-align:center;
+    }
+    
+    video{
+    border-radius:10%;
+    }
+    
+    img{
+    border-radius:10%;
+    }
+    
+    /*LOGO*/
+    .div1{
+    background-color:black;
+    color:#ffffff;
+    height:90px;
+    width:120px;
+    float:left;
+    margin-top:00px;
+    margin-left:75px;
+    border-radius:15px 15px;
+    box-shadow:0 0 50px coral;
+    }
+    /*Header*/
+    .div2{
+    color:#ffffff;
+    height:90px;
+    width:1000px;
+    background-color:black;
+    margin-left:215px;
+    margin-top:50px;
+    border-radius:15px 15px;
+    box-shadow:0 0 50px coral;
+    }
+    /*panel*/
+    .div3{
+    color:#ffffff;
+    background-color:black;
+    height:380px;
+    width:120px;
+    float:left;
+    margin-top:20px;
+    margin-left:75px;
+    border-radius:15px 15px;
+    box-shadow:0 0 50px coral;
+    }
+    /*Footer*/
+    .div4{
+    color:#ffffff;  
+    height:90px;
+    width:1150px;
+    background-color:black;
+    margin-left:75px;
+    margin-top:420px;
+    border-radius:15px 15px;
+    box-shadow:0 0 50px coral;
+    }
+    /*1*/
+    .div5{
+    background-color:rgb(6, 10, 245);
+    height:150px;
+    width:245px;
+    float:left;
+    margin-top:-474px;
+    margin-left:250px;
+    border-radius:15px 15px;
+    box-shadow:0 0 50px rgb(67, 200, 233);
+    animation: f_anim 6s;
+    
+    }
+    /*2*/
+    .div6{
+    background-color:saddlebrown;
+    height:150px;
+    width:245px;
+    float:left;
+    margin-top:-474px;
+    margin-left:575px;
+    border-radius:15px 15px;
+    box-shadow:0 0 50px coral;
+    animation: f_anim 5s;
+    }
+    /*3*/
+    .div7{
+    background-color:saddlebrown;
+    height:150px;
+    width:245px;
+    float:left;
+    margin-top:-474px;
+    margin-left:900px;
+    border-radius:15px 15px;
+    box-shadow:0 0 50px coral;
+    animation: f_anim 4s;
+    }
+    /*4*/
+    .div8{
+    background-color:saddlebrown;
+    height:150px;
+    width:245px;
+    float:left;
+    margin-top:-274px;
+    margin-left:900px;
+    border-radius:15px 15px;
+    box-shadow:0 0 50px coral;
+    animation: f_anim 3s;
+    }
+    /*5*/
+    .div9{
+    background-color:saddlebrown;
+    height:150px;
+    width:245px;
+    float:left;
+    margin-top:-274px;
+    margin-left:575px;
+    border-radius: 15px 15px;
+    box-shadow:0 0 50px coral;
+    animation: f_anim 3s;
+    }
+    /*6*/
+    .div10{
+    background-color:saddlebrown;
+    height:150px;
+    width:245px;
+    float:left;
+    margin-top:-274px;
+    margin-left:250px;
+    border-radius:15px 15px;
+    box-shadow:0 0 50px coral;
+    animation: f_anim 1s;
+    }
+
+    .div1:hover
+{
+box-shadow:0 0 40px black;
+cursor:pointer;
+}
+.div2:hover
+{
+box-shadow:0 0 40px black;
+transition: 2s;
+cursor:pointer;
+}
+.div3:hover
+{
+box-shadow:0 0 40px black;
+transition: 2s;
+cursor:pointer;
+}
+.div4:hover
+{
+box-shadow:0 0 40px black;
+transition: 2s;
+cursor:pointer;
+}
+.div5:hover
+{
+background-color: black;
+transition: 2s;
+transform:scale(1.2,1.2);
+box-shadow:0 0 10px #f953c6;
+cursor:pointer;
+}
+
+.div6:hover
+{
+background-color: black;
+transition: 2s;
+transform:scale(1.2,1.2);
+box-shadow:0 0 10px #f953c6;
+cursor:pointer;
+}
+.div7:hover
+{
+background-color: black;
+transition: 2s;
+transform:scale(1.2,1.2);
+box-shadow:0 0 10px #f953c6;
+cursor:pointer;
+}
+.div8:hover
+{
+background-color: black;
+transition: 2s;
+transform:scale(1.2,1.2);
+box-shadow:0 0 10px #f953c6;
+cursor:pointer;
+}
+.div9:hover
+{
+background-color: black;
+transition: 2s;
+transform:scale(1.2,1.2);
+box-shadow:0 0 10px #f953c6;
+cursor:pointer;
+}
+.div10:hover
+{
+background-color: black;
+transition: 2s;
+transform:scale(1.2,1.2);
+box-shadow:0 0 10px #f953c6;
+cursor:pointer;
+}
+
+@keyframes f_anim
+{
+16%{margin-left:200px}
+16%{margin-left:200px;} 
+16%{margin-left:0px;}
+16%{margin-left:0px;}
+16%{margin-left:200px;}
+16%{margin-left:200px;} 
+}
+
+/*animation2*/
+@keyframes s_anim {
+  25%{box-shadow:0 0 50px #43cea2;}
+  25%{box-shadow:0 0 50px #43cea2;}
+  25%{box-shadow:0 0 50px #43cea2;}
+  25%{box-shadow:0 0 50px #43cea2;}
+}

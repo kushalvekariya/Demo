@@ -1,0 +1,99 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main navigation bar */
+.main {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    position: relative;
+    padding: 15px 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Top-level menu items */
+ul li:hover {
+    background: grey;
+}
+
+/* Dropdown container */
+.div {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: black;
+    width: 200px;
+}
+
+/* Show dropdown on hover */
+.li_3:hover .div {
+    display: block;
+}
+
+/* Dropdown menu */
+.pr {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sub_li {
+    position: relative;
+    background: black;
+    padding: 10px;
+}
+
+.sub_li a {
+    color: yellow;
+    display: block;
+    padding: 10px;
+}
+
+.sub_li:hover {
+    background: darkblue;
+}
+
+/* Submenu (nested dropdown) */
+.sub_ol {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: black;
+    width: 200px;
+}
+
+.sub_li:hover .sub_ol {
+    display: block;
+}
+
+/* Submenu item styling */
+.s_li a {
+    color: white;
+}
+
+.s_li:hover {
+    background: grey;
+}
